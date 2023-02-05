@@ -1,0 +1,14 @@
+
+#grid {
+    display: grid;
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: repeat(16, 1fr);
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+    align-items: center;
+    justify-content: center;
+}
+  
+.grid-item {
+}
